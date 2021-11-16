@@ -1,0 +1,74 @@
+.preview {
+	position: relative;
+}
+
+.preview_close {
+	position: absolute;
+	top: 0;
+	margin: 5px;
+	font-size: 18px !important;
+	color: white;
+	cursor: pointer;
+}
+
+.preview_toolbarRight {
+	color: white;
+	position: absolute;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	margin: 7px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgba(121, 121, 121, 0.425);
+}
+
+.preview_toolbarRight > .MuiSvgIcon-root {
+	/* padding: 5px; */
+	font-size: 20px !important;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.preview_footer {
+	background-color: #ffee00;
+	position: absolute;
+	bottom: 0;
+	right: 2%;
+	/* left: 20%; */
+	/* transform: translate(-50%, -50%); */
+	color: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center !important;
+	margin: 10px;
+	margin-bottom: 15px;
+	/* font-size: 12px; */
+	border-radius: 30px;
+	padding: 7px;
+	cursor: pointer;
+}
+
+.preview_footer > h2 {
+	font-size: 9px;
+	margin-right: 3px;
+}
+
+.preview_footer > .preview_send_icon {
+	font-size: 10px !important;
+	align-self: center;
+}
+
+.preview_upload_progress {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 100px;
+	width: 100px; /* Need a specific value to work */
+}

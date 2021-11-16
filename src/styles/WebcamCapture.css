@@ -1,0 +1,28 @@
+.webcamCapture {
+	/* background-color: green; */
+	position: relative;
+}
+
+.webcamCapture_button {
+	position: absolute;
+	bottom: 20px;
+
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px; /* Need a specific value to work */
+
+	cursor: pointer;
+	color: white;
+}
+
+.view_webCam {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	margin: 5px;
+	font-size: 18px !important;
+	color: white;
+	cursor: pointer;
+}

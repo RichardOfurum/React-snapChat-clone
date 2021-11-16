@@ -1,0 +1,33 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fefc01;
+	height: 100vh;
+}
+
+.app_logo {
+	object-fit: contain;
+	height: 100px;
+}
+
+.app_body {
+	/* background: url("https://www.pngkey.com/png/full/859-8598072_picture-freeuse-library-silhouette-mobile-at-getdrawings-cell.png")
+		no-repeat center;
+	background-size: contain; */
+
+	/* height: 400px !important; */
+	/* width: 250px !important; */
+	/* padding-top: 45px !important; */
+	/* padding-bottom: 200px solid black; */
+	border: 10px solid black;
+	border-top: 50px solid black;
+	border-bottom: 50px solid black;
+	border-radius: 30px;
+}
+
+.app_body_background {
+	background-color: white;
+	height: 400px;
+}
